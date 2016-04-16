@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1460825438 source:/home/user/Dropbox/FinalProjectShioshita/src/HashTable.cpp
+	"HashTable.h"
+
+1460825653 /home/user/Dropbox/FinalProjectShioshita/include/HashTable.h
+	<string>
+	<vector>
+
+1460825632 source:/home/user/Dropbox/FinalProjectShioshita/main.cpp
+	<iostream>
+
