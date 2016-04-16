@@ -7,6 +7,6 @@ list and compare similar items, ultimately helping the user decide what to
 purchase. Once the user is done making their wish list, their list can be saved
 to a text file. The data in this program will be stored in a hash table since,
 items that are the same will be stored at the same index, even though their
-supplier and price may differ. This will make it easier for comparrison between
+supplier and price may differ. This will make it easier for comparison between
 items, based on who sells it and how much it costs.
 
