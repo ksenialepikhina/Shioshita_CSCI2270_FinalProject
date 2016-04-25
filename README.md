@@ -1,5 +1,5 @@
 # Shioshita_CSCI2270_FinalProject
-CSCI 2270 Final Project
+CSCI 2270 Final Project: "Smart" Wish List
 
 This program creates a "smart" wish list that will help people store items they are
 are interested in buying, where to purchase the item, and how much it costs. 
