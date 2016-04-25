@@ -12,7 +12,7 @@ items that are the same will be stored at the same index, even though their
 supplier and price may differ. This will make it easier for comparison between
 items, based on who sells it and how much it costs.
 
-How to Run
+How to Run: 
 When the program is started it will print out a menu with all of the different functions
 the Wish List can perform. The user is then able to enter a number corresponding to the 
 action that the user wants it to perform. If the user selects 1, the entire Wish List
@@ -31,5 +31,13 @@ ask the user if they want to edit the select item. If the user types in "yes", t
 will be propted with the new item name, supplier, and price. If the user types in
 "no" the program will ask the user if they want to edit the next item, with the same
 name until the user edits the item or there are no more items with the same name.
+If the user selects 5, the program will help the user decide which item they
+should purchase. The program will prompt the user with the item that they are curious
+about, print out the items that match the item name they were curious about, and
+tell the user which item has the lowest price, and where to get it. After the user has 
+inserted various items, they will have the ability to create a text file that saves
+their Wish List, and select 6. The text file will contain all of the items that are in the 
+Wish List, the supplier, and price. Finally, when the user is done using the program, they
+will select 8 to quit the program.
 
 
