@@ -1,5 +1,6 @@
 # Shioshita_CSCI2270_FinalProject
 CSCI 2270 Final Project
+
 This program creates a "smart" wish list that will help people store items they are
 are interested in buying, where to purchase the item, and how much it costs. 
 The program will allow the user to add items to the list, delete items from the 
@@ -12,7 +13,8 @@ items that are the same will be stored at the same index, even though their
 supplier and price may differ. This will make it easier for comparison between
 items, based on who sells it and how much it costs.
 
-How to Run: 
+How to Run:
+
 When the program is started it will print out a menu with all of the different functions
 the Wish List can perform. The user is then able to enter a number corresponding to the 
 action that the user wants it to perform. If the user selects 1, the entire Wish List
