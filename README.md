@@ -31,13 +31,17 @@ ask the user if they want to edit the select item. If the user types in "yes", t
 will be propted with the new item name, supplier, and price. If the user types in
 "no" the program will ask the user if they want to edit the next item, with the same
 name until the user edits the item or there are no more items with the same name.
-If the user selects 5, the program will help the user decide which item they
+If the user selects 6, they will be able to search the wish list for a certain
+item name. The program will then print out the item name, supplier, and price, of all
+the items that match the item the user is searching for.
+If the user selects 7, the program will help the user decide which item they
 should purchase. The program will prompt the user with the item that they are curious
 about, print out the items that match the item name they were curious about, and
 tell the user which item has the lowest price, and where to get it. After the user has 
 inserted various items, they will have the ability to create a text file that saves
-their Wish List, and select 6. The text file will contain all of the items that are in the 
+their Wish List, and select 8. The text file will contain all of the items that are in the 
 Wish List, the supplier, and price. Finally, when the user is done using the program, they
-will select 8 to quit the program.
+will select 9 to quit the program.
 
+System Requirements: Linux
 
