@@ -6,7 +6,7 @@
 struct HashElem{
 	std::string item;
 	std::string supplier;
-	int price;
+	double price;
 	HashElem *next;
     HashElem *previous;
 
@@ -27,9 +27,13 @@ class HashTable
 		HashTable();
 		~HashTable();
 		void printTableContents();
-		void insertItem(std::string item, std::string supplier, int price);
+		void insertItem(std::string item, std::string supplier, double price);
 		void deleteItem(std::string item);
 		void findItem(std::string item);
+		void makeDecision(std::string item);
+		void saveWishList();
+		void editItem(std::string item);
+		void deleteSpecific(std::string item, std::string supplier, double price);
 	private:
 		int hashSum(std::string x, int s);
 		int tableSize = 10;
