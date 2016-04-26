@@ -91,7 +91,7 @@ int main()
             h1.saveWishList();
             cout<<"Your Wish List has been saved"<<endl;
         }
-        else if(user==9) //Quit
+        else if(user==10) //Quit
         {
             cout<<"Goodbye!"<<endl;
         }
