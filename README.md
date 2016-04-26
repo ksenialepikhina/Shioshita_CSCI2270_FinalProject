@@ -15,7 +15,7 @@ items, based on who sells it and how much it costs.
 
 How to Run:
 
-The three files you need to run the program are called HashTable.cpp, HashTable.h, and main.cpp.
+The three files you need to run the program are called HashTable.cpp, HashTable.h, and WishList.cpp.
 
 When the program is started it will print out a menu with all of the different functions
 the Wish List can perform. The user is then able to enter a number corresponding to the 
@@ -38,8 +38,8 @@ then searchs the list for an item that matches all three specifications and then
 the item. 
 
 If the user selects 5, they will have the option to edit an item already in 
-the Wish List. The user will be promted with an item name and then the program will go through
-every item that has the same item name. The program will then print out an item and
+the Wish List. The user will be promted with an item name and then the program will go 
+through every item that has the same item name. The program will then print out an item and
 ask the user if they want to edit the select item. If the user types in "yes", they
 will be propted with the new item name, supplier, and price. If the user types in
 "no" the program will ask the user if they want to edit the next item, with the same
@@ -60,4 +60,8 @@ Wish List with the supplier, and price listed.
 If the user selects 9, the program will be exited.
 
 System Requirements: Linux
+
+Open Issues:
+
+When editing an item the user must type in "yes" exactly, without capitalization.
 
