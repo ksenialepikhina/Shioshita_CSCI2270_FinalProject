@@ -1,5 +1,6 @@
 #include "HashTable.h"
 #include <iostream>
+#include <sstream>
 #include <string>
 #include <vector>
 #include <fstream>
@@ -316,6 +317,22 @@ void HashTable::deleteSpecific(string item, string supplier, double price)
         cout<<"Item not found"<<endl;
     }
 }
+
+void HashTable::countItems()
+{
+    int count = 0;
+    for (int i = 0; i<10; i++)
+    {
+        HashElem* temp = hashTable[i];
+        while (temp != NULL)
+        {
+            temp = temp->next;
+            count++;
+        }
+    }
+    cout<< count<<endl;
+}
+
 HashTable::HashTable()
 {
     //ctor

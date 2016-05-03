@@ -7,7 +7,7 @@ int main()
 {
     int user;
     HashTable h1;
-    while(user!=9)
+    while(user!=10)
     {
         cout<<"======Main Menu======"<<endl;
         cout<<"1. View Wish List"<<endl;
@@ -18,7 +18,8 @@ int main()
         cout<<"6. Find Item"<<endl;
         cout<<"7. Make a decision"<<endl;
         cout<<"8. Save wish list"<<endl;
-        cout<<"9. Quit"<<endl;
+        cout<<"9. How many items saved"<<endl;
+        cout<<"10. Quit"<<endl;
         cin >>user;
         if(user==1)
         {
@@ -90,6 +91,10 @@ int main()
         {
             h1.saveWishList();
             cout<<"Your Wish List has been saved"<<endl;
+        }
+        else if(user==9)
+        {
+            h1.countItems();
         }
         else if(user==10) //Quit
         {

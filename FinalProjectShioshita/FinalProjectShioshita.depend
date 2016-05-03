@@ -16,3 +16,25 @@
 	<cstdlib>
 	"HashTable.h"
 
+1462223586 source:/home/user/Documents/smartlist/Shioshita_CSCI2270_FinalProject/FinalProjectShioshita/src/HashTable.cpp
+	"HashTable.h"
+	<iostream>
+	<sstream>
+	<string>
+	<vector>
+	<fstream>
+	<cstdlib>
+
+1462225950 /home/user/Documents/smartlist/Shioshita_CSCI2270_FinalProject/FinalProjectShioshita/include/HashTable.h
+	<string>
+	<vector>
+
+1462243678 source:/home/user/Documents/smartlist/Shioshita_CSCI2270_FinalProject/FinalProjectShioshita/WishList.cpp
+	<iostream>
+	<cstdlib>
+	"HashTable.h"
+
+1462243724 /home/user/Documents/smartlist/Shioshita_CSCI2270_FinalProject/FinalProjectShioshita/HashTable.h
+	<string>
+	<vector>
+

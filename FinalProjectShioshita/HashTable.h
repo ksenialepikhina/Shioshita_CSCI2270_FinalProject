@@ -34,6 +34,7 @@ class HashTable
 		void saveWishList();
 		void editItem(std::string item);
 		void deleteSpecific(std::string item, std::string supplier, double price);
+		void countItems();//Ksenia Lepikhina's function
 	private:
 		int hashSum(std::string x, int s);
 		int tableSize = 10;
